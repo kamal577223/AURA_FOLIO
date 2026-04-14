@@ -1,7 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Creative Developer Portfolio
 
-## Getting Started
+A high-end "Scrollytelling" Personal Portfolio Website built to showcase my transition into Full-Stack and IoT Development. 
 
+## 🚀 Live Preview
+Run the codebase to experience a high-performance scroll-linked image sequence that scrubs beautifully as you navigate down the screen:
+```bash
+npm run dev
+# Open http://localhost:3000
+```
+
+## ✨ Technical Features
+- **Next.js 14 App Router:** Leveraging the absolute latest in React frameworks for scalable architecture.
+- **Framer Motion:** Sophisticated scroll-linked animations (`useScroll`, `useTransform`) enabling parallax typography and glass-morphism interactions seamlessly.
+- **HTML5 Canvas Sequence Rendering:** Completely bypasses `<video>` overhead by preloading and drawing frames to an optimized canvas dynamically maintaining `object-fit: cover` logic mathematically. 
+- **Tailwind CSS:** Fully custom styles dropping default presets to feature a unified `#121212` cinematic background setup with curated spacing and responsive multi-platform adjustments.
+- **Neumorphism & Glass-morphism UI:** Advanced CSS styling for interactive project cards utilizing `backdrop-blur`.
+
+## 💼 Included Resume Sections
+The portfolio comprehensively hosts my professional summary across:
+- **Experience:** My time as a Junior Developer at JB PORTALS.
+- **Projects:** In-depth looks into my Digital Library Management System and my Multimodal RAG AI Chat integrations.
+- **Education & Skills:** B.E. in CSE details paired alongside IoT/Cybersecurity proficiencies and Infosys certifications padding.
+
+## ⚙️ How to use
 First, run the development server:
 
 ```bash
@@ -14,23 +35,6 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. You can start editing the page by modifying `app/page.tsx` or modifying the core components found inside the `src/components/` directory.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
